@@ -70,17 +70,3 @@ def main():
     root.mainloop()
 
 if __name__ == "__main__": main()
-
-######    def open_origin(self):#define how to browse and display folders
-######        self.origin = filedialog.askopenfilename(title='Choose a file')
-######        loadedfile = self.origin.read()
-######        self.origin.close()
-######        self.entry_origin.insert("end", loadedfile)
-######        
-######    def destination(self):#define how to browse and display folders
-######        fname = filedialog.askopenfilename(title='Choose a file')
-######        with open(fname,'r') as f:
-######            for file in f:
-######                data = f.read()
-######                self.entry_destination.insert(0, fname)
-######                print (fname)
