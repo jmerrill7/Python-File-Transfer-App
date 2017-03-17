@@ -7,4 +7,7 @@
  time that the file transfer widget was used.
  
  Created in Python 3
+ 
+ Requires sqlite3 installed on machine for
+ database generation.
 
